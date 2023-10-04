@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* canvas */
+.bg-c{
+    background-color: #F2F4F7;
+}
+.canvas-img{
+    max-width: 50px;
+    display: block;
+}
+.canvas-c h4{
+    font-size: 16px;
+}
+
+#open .accordion-button[aria-expanded="false"]::after{
+    transform: rotate(0deg);
+}
+
+#open .accordion-button[aria-expanded="true"]::after{
+    transform: rotate(-180deg);
+}
+
+/* navbar */
+.get-1{
+    background-color: #F2F4F7;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101828;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.get-1:hover{
+    background-color: #101828;
+    color: white;
+}
+.han-1{
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
+}
+/* accordion */
+.accordion-item:first-of-type .accordion-button{
+    background-color: transparent;
+}
+/* slider */
+.slider-text{
+    font-size: 80px;
+    font-weight: 700;
+}
+.bg-color{
+    z-index: 0;
+    background-color: #FAEDE3;
+    margin-top: 110px;
+}
+.slider-c1 img{
+    z-index: -1;
+    width: 210px;
+}
+.slider-c2 button{
+    z-index: 0;
+}
+.banner img{
+    position: absolute;
+    width: 500px;
+    display: block;
+    right: 150px;
+    bottom: 0px;
+}
+.get-2{
+    background-color: #101828;
+    color: white;
+    padding: 20px 30px;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 50px;
+}
+.get-2:hover{
+    background-color: #F2F4F7;
+    color: black;
+}
+
+/* logo section */
+.logo-img{
+    width: 1050px;
+    margin: auto;
+    padding: 80px 0;
+}
+.logo-img img{
+    transition: all 0.3s;
+}
+.logo-img img:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+}
+.logo-p h1{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64px;
+    color: #101828;
+}
+.logo-p p{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #475467;
+}
+.button-g{
+    text-align: center;
+    padding: 70px 0;
+}
+.button-g a{
+    background-color: #F2F4F7;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #101828;
+    transition: all 0.3s;
+    border: 1px solid green;
+}
+.button-g a:hover{
+    border-radius: 50px;
+    color: green;
+    background-color: white;
+    transform: translateY(10px);
+}
+
+/* 2 part */
+.clo-50-bg{
+    background-color: #FAEDE3;
+}
+.clo-50-bg a{
+    display: inline-block;
+    text-decoration: none;
+    color: #101828;
+    background-color: white;
+    transition: all 0.3s;
+}
+.clo-50-bg a:hover{
+    background-color: #101828;
+    color: #F2F4F7;
+}
+.i-50 i{
+    font-size: 30px;
+    padding: 35px;
+    border-radius: 50px;
+}
+
+/* facilitate (2) */
+.facilitate{
+    left: 0;
+}
+.facy-1{
+    background-color: #DBECE5;
+}
+.facy-2{
+    background-color: #D1ECFD;
+}
+.facy-3{
+    background-color: #FFF3EA;
+}
+.facy-4{
+    background-color: #ffffff;
+}
+.facy-1 a,
+.facy-2 a,
+.facy-3 a{
+    background-color: #F2F4F7;
+    color: #101828;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.facy-1 a:hover,
+.facy-2 a:hover,
+.facy-3 a:hover{
+    background-color: #101828;
+    color: #F2F4F7;
+}
+.box-1{
+    transition: all 0.3s;
+}
+.box-1:hover{
+    transform: translateY(-10px);
+}
+
+ /* We believe */
+ .beli-1 span{
+    color: #E29578;
+    background-color: #FFF3EA;
+    border-radius: 50px;
+    padding: 10px 28px;
+}
+.beli-1 h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #101828;
+    line-height: 64px;
+}
+.beli-1 p{
+    font-size: 22px;
+    color: #475467;
+}   
+
+/* What We Offer */
+.slider1 .owl-nav button.owl-next, .slider1 .owl-nav button.owl-prev, .slider1 button.owl-dot{
+    display: none;
+}
+.slider1 .owl-theme .owl-dots .owl-dot span{
+    display: block;
+}
+.offer-1{
+    background-color: #FFF3EA;
+    padding: 80px;
+}
+.offer-1 h1{
+    font-size: 50px;
+}
+
+/* what we offer */
+.main-carousel{
+    margin: auto;
+    left: 0;
+}
+.owl-carousel .owl-item img{
+    width: 20%;
+}
+.carousel{
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
+.carousel:hover{
+    transform: translateY(-5px);
+}
+.carousel h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Our Happy Customers */
+.Happy-1 h1{
+    font-size: 56px;
+    font-weight: bold;
+} 
+.owl-carousel .owl-item img{
+    width: 23%;
+}
+.Happy-2{
+    border: 10px solid #FAD2E1;
+}
+.Happy-3{
+    border: 10px solid #BEE1E6;
+}
+.Happy-4{
+    border: 10px solid #DDD3FA;
+}
+.Happy-5{
+    border: 10px solid #D1ECFD;
+}
+.Happy-2 h5,
+.Happy-3 h5,
+.Happy-4 h5,
+.Happy-5 h5{
+    font-size: 14px;
+}
+
+/* Latest News */
+.latest-1 h1{
+    font-size: 56px;
+}
+.latest-1 button{
+    background-color: #101828;
+    color: #ffffff;
+    border: 0;
+    transition: all 0.3s;
+}
+.latest-1 button:hover{
+    background-color: rgb(226, 226, 226);
+    color: #101828;
+}
+.latest-2 img{
+    position: relative;
+}
+.latest-2 img::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #E29578;
+    right: -20px;
+    bottom: 0;
+}
+.len-1{
+    position: relative;
+    z-index: 1;
+}
+.len-2,
+.len-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #D1ECFD;
+    top: 20px;
+    left: 20px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.len-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FAD2E1;
+    top: 20px;
+    left: 20px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.len-1:hover .len-2,
+.len-1:hover .len-3{
+    left: 10px;
+    top: 10px;
+}
+
+/* Choose The Best Plan */
+.bg-f-color{
+    background-color: #006D77;
+}
+.Choose-1 h1{
+    font-size: 56px;
+}
+.green-1 li{
+    font-size: 14px;
+}
+i.green{
+    color: #006D77;
+}
+.Plan-1 button i{
+    padding-left: 80px;
+}
+.Plan-1 button{
+    background-color: white;
+    color: #101828;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+}
+.Plan-1 button:hover{
+    background-color: #101828;
+    color: white;
+}
+
+/* Subscribe our newsletter */
+.news-1{
+    position: relative;
+}
+.right-1{
+    position: absolute;
+    content: "";
+    left: 240px;
+    bottom: 58px;
+}
+/* Subscribe our newsletter */
+.news-2 img{
+    max-width: 30%;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+/* .news-2{} */
+.news-2 img.chart-1{
+    max-width: 25%;
+    right: 340px;
+    top: 120px;
+    box-shadow: 0px 47px 65px rgb(21 28 38 / 10%);
+    animation: updown 3s infinite linear;
+    z-index: 1;
+}
+.news-container{
+    max-width: 1140px;
+    margin: auto;
+}
+@keyframes updown {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* footer */
+.footer-1 a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: all 0.2s;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.footer-1 a:hover{
+    background-color: white;
+    color: black;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: #101828;
+}
+footer ul li{
+    transition: all 0.3s;
+}
+footer ul li:hover{
+    transform: translateX(5px);
+    color: #101828;
+}
+.footer-2 li i{
+    background-color: #006D77;
+    color: white;
+}
+
+/* (2) about section css */
+.beli-1 h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.a-bg{
+    background-image: url('../image/a-bg.png');
+    margin-top: 110px;
+    padding: 100px;
+    position: relative;
+}
+.a-bg-2 .col-6 img{
+    width: 35%;
+    position: absolute;
+    right: 110px;
+    animation: updown 5s infinite linear;
+}
+.a-bg-2 .col-6 img.ban-2{
+    position: absolute;
+    left: 42%;
+    bottom: -25%;
+    width: 15%;
+    animation: downup 5s infinite linear;
+}
+@keyframes updown {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes downup {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* We believe in the power of creative ideas */
+.believe{
+    margin-top: 300px;
+}
+.power-2{
+    background-color: white;
+    font-size: 30px;
+    padding: 40px;
+}
+/* Providing solutions of every kind */
+.kind-1 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.kind-main img{
+    width: 80px;
+}
+/* Bringing the world's ideas to life */
+.life-1 h3{
+    display: inline;
+    font-size: 14px;
+    color: #006D77;
+    background-color: #BEE1E6;
+    padding: 13px 20px;
+    border-radius: 50px;
+}
+.life-1 h1{
+    font-size: 50px;
+    color: #101828;
+    font-weight: bold;
+}
+.life-2 a{
+    background-color: #F2F4F7;
+    color: #101828;
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+}
+.b-1{border: 10px solid #FAD2E1;}
+.b-2{border: 10px solid #BEE1E6;}
+
+/* slider main */
+.owl-carousel .owl-item .slider-a img{
+    width: 95%;
+    display: block;
+}
+.owl-carousel .owl-item .slider-a2 img{
+    width: 10%;
+    padding-right: 5px;
+}
+
+/* contact us page */
+.mind-bg{
+    background-color: #F2F4F7;
+    padding: 80px;
+    position: relative;
+}
+.mind-bg img{
+    position: absolute;
+    right: 45px;
+    top: 35px;
+}
+.mind-2 p{
+    font-size: 14px;
+}
+.mind-2 button{
+    padding: 20px 30px;
+}
+.kind-2{
+    transition: all 0.5s;
+}
+.kind-2:hover{
+    transform: translateY(-5px);
+}
+
+/* login page . . . 4 */
+.l-bg{
+    background-color: rgba(190,225,230,0.301961);
+    padding-top: 110px;
+}
+.google-1{
+    background-color: #ffffff;
+    margin: 0 430px;
+    padding: 15px 0;
+}
+.hr-25{
+    width: 50px;
+}
